@@ -1,0 +1,36 @@
+{
+  "blogs":[
+    {
+    "id":1,
+    "title":"How to Be a Future Human",
+    "author":"Siobhan O'Connor",
+    "time":"12:05pm",
+    "date":"Jul 2",
+    "content":"We imagine humanity as a fixed state. People come into being, usually the old-fashioned way. They progress along a timeline of milestones that varies little from person to person. They get sick, occasionally at first, and then inexorably. They die. There are outliers at every step—except for the last one, at least so far—but the human condition is the human condition. How its been is how it will be.",
+   "image":"https://images.pexels.com/photos/262272/pexels-photo-262272.jpeg?auto=compress&cs=tinysrgb&h=350"
+  },
+
+  {
+    "id":2,
+    "title":"Will Humanity Be Better Off in 2118?",
+    "author":"Ryan Hubbard",
+    "time":"07:12am",
+    "date":"Jul 17",
+    "content":"Its easy to believe that the human race won’t be around for long, when you consider the state of the world today. But its often been the role of the artist to bring us hope. Thats why we have asked several illustrators this month to envision what humans might look like in 100 years as part of our monthly magazine, Future Human. You can check out the first and second entry here.",
+   "image":"https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?auto=compress&cs=tinysrgb&h=350"
+ },
+
+
+  {
+    "id":3,
+    "title":"Magic Pills, Machine-Learning Skincare, and the Future of Health",
+    "author":"Alyssa Giacobbe",
+    "date":"Jul 12",
+    "time":"11:09am",
+    "content":"Technology has always promised a better future … eventually. Somehow the real breakthroughs have always seemed to be just around the corner. But somehow, when we weren’t quite paying attention, the future actually arrived. Thanks to forward-thinking researchers calling on advances in genomics, artificial intelligence, food science, and drug hacking, a more resilient, enlightened, and cognitively-, physically-, and sexually-enhanced…",
+    "image":"https://images.pexels.com/photos/935869/pexels-photo-935869.jpeg?auto=compress&cs=tinysrgb&h=350"
+  }
+
+
+  ]
+}
