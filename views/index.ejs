@@ -6,6 +6,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel='stylesheet' href='/stylesheets/form.css' />
     <!-- include libraries(jQuery, bootstrap) -->
   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
@@ -20,7 +21,7 @@
 
   <!-- include summernote css/js-->
   <link href="summernote.css">
-    </head>
+  </head>
   <body>
    <div class="main_container">
 
@@ -32,7 +33,7 @@
           </div>
           <ul class="nav navbar-nav">
             <li class="active"><a href="index">Home</a></li>
-            <li><a href="edit">edit post ></a></li>
+            <li><a href="archives">Achives</a></li>
             <li><a href="new_post_page">New post</a></li>
           </ul>
           <form class="navbar-form navbar-left" action="/action_page.php">
@@ -49,7 +50,7 @@
 
            <div id="id01" class="modal">
           <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-          <form class="modal-content" action="/action_page.php">
+          <form class="modal-content" action="/">
             <div class="col-md-6 col-sm-6 col-xs-12 col-lg-12">
               <div class="container">
                 <h1>Sign Up</h1>
@@ -84,7 +85,7 @@
             <li><a href="#"><button onclick="document.getElementById('id02').style.display='block'" style="width:auto;"><span class="glyphicon glyphicon-log-in"></span>  Log in</button>
               <div id="id02" class="modal">
              <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-             <form class="modal-content" action="/action_page.php">
+             <form class="modal-content" action="/">
                <div class="col-md-6 col-sm-6 col-xs-12 col-lg-12">
                  <div class="container">
                    <h1>Login</h1>
@@ -116,6 +117,7 @@
          <span class="border border-secondary">
 
             <h1>Future human</h1>
+
          </span>
         </span>
       </div>
@@ -169,6 +171,53 @@
         <p>You have no blog posts</p>
 
       <% } %>
+
+      <!-- Footer -->
+  <footer class="page-footer font-small blue pt-4">
+
+     <!-- Footer Links -->
+     <div class="container-fluid text-center text-md-left">
+
+       <!-- Grid row -->
+       <div class="row">
+
+         <!-- Grid column -->
+         <div class="col-md-6 mt-md-0 mt-3">
+
+           <!-- Content -->
+           <h2 class="text-uppercase">News letter </h2>
+           <form action="/action_page.php">
+              <div class="container">
+                <h2>Subscribe to our Newsletter</h2>
+                <p>We imagine humanity as a fixed state. People come into being, usually the old-fashioned way. They progress along a timeline of milestones that varies little from person to person</p>
+              </div>
+
+              <div class="container" style="background-color:white">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required>
+                <label>
+                  <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                </label>
+              </div>
+
+              <div class="container">
+                <input type="submit" value="Subscribe">
+              </div>
+            </form>
+
+         </div>
+
+     </div>
+     <!-- Footer Links -->
+
+     <!-- Copyright -->
+     <div class="footer-copyright text-center py-3">© 2018 Copyright:
+       <a href=""> </a>
+     </div>
+     <!-- Copyright -->
+   </div>
+   </footer>
+   <!-- Footer -->
       <script>
         // Get the modal
         var modal = document.getElementById('id01');

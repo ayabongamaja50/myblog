@@ -4,10 +4,19 @@ body {
   background-image: url(https://images.pexels.com/photos/1248936/pexels-photo-1248936.jpeg?auto=compress&cs=tinysrgb&h=350);
   background-size: contain;
 }
-h1{
-  background-image: url(https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&h=350);
+.jumbotron{
+  background-image: url(https://images.pexels.com/photos/167964/pexels-photo-167964.jpeg?auto=compress&cs=tinysrgb&h=350);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 500px !important;
+  width: 100% !important;
 }
-
+h1{
+  text-align: center;
+  /* color: white !important; */
+}
 a {
   color: #00B7FF;
 }
@@ -19,23 +28,24 @@ input[type=text], input[type=password] {
     width: 100%;
     padding: 15px 15px;
     margin: 5px 0 22px 0;
-    display: inline-block;
+    display: inline-block
     border: none;
     background: #f1f1f1;
     overflow: hidden;!important
 }
 
+
 /* Add a background color when the inputs get focus */
 input[type=text]:focus, input[type=password]:focus {
     background-color: #ddd;
-    /* outline: none; */
-    /* overflow: hidden; */
+    outline: none;
+    overflow: hidden;
 }
 
 /* Set a style for all buttons */
 button {
-    /* background-color: #4CAF50;
-    color: white; */
+    background-color: #4CAF50;
+    color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -180,4 +190,7 @@ transition: .5s;
 .hoverBtn:active {
   box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
   background-color:  #DA4453;
+}
+.btn{
+  margin: 30px !important;
 }

@@ -39,7 +39,7 @@ res.render('new_post_page', { title: 'Post page', blogs:blogs.blogs });
   //  res.redirect('/')
   });
 });
-
+  
 
 /* GET archive_page. */
 router.get('/archive', function(req, res, next) {
